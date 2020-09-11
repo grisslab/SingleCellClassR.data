@@ -1,0 +1,13 @@
+Package: SingleCellClassR.data
+Type: Package
+Title: Data package for SingleCellClassR package
+Version: 0.1.0
+Authors@R: 
+    c(person("Vy", "Nguyen", email = "thi-tuong-vy.nguyen@meduniwien.ac.at", role = c("aut"), comment = c(ORCID = "0000-0003-3436-3662")),
+      person("Johannes", "Griss", email = "johannes.griss@meduniwien.ac.at", role = c("cre"), comment = c(ORCID = "0000-0003-2206-9511")))
+Description: This package contains datasets used in vignettes of SingleCellClassR package.
+License: GPL-2
+Encoding: UTF-8
+bioCviews: SingleCellData, ExpressionData, RNASeqData
+Depends: R (>= 4.0), Seurat
+RoxygenNote: 7.1.0
